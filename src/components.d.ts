@@ -28,6 +28,8 @@ declare global {
   }
   namespace JSXElements {
       export interface MyFormAttributes extends HTMLAttributes {
+          mode?: string,
+          color?: string,
         
       }
   }
@@ -55,6 +57,8 @@ declare global {
   }
   namespace JSXElements {
       export interface MyListAttributes extends HTMLAttributes {
+          mode?: string,
+          color?: string,
         
       }
   }
@@ -82,6 +86,8 @@ declare global {
   }
   namespace JSXElements {
       export interface MyNameAttributes extends HTMLAttributes {
+          mode?: string,
+          color?: string,
         
           first?: string,
           last?: string

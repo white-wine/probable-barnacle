@@ -2,7 +2,8 @@ import { Component, State, Listen } from '@stencil/core';
 
 
 @Component({
-  tag: 'my-list'
+  tag: 'my-list',
+  styleUrl: 'my-list.scss'
 })
 export class MyName {
 
@@ -29,7 +30,7 @@ export class MyName {
                 {this.table.map((row) =>
                 <li>{row}</li>
                 )}
-                {this.input}
+                <span>{this.input}</span>
             </ul>
         );
     }

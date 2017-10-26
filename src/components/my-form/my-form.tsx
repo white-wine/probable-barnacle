@@ -1,6 +1,7 @@
 import { Component, State, Event, EventEmitter } from '@stencil/core';
 @Component({
-    tag: 'my-form'
+    tag: 'my-form',
+    styleUrl: 'my-form.scss'
 })
 export class MyName {
 
